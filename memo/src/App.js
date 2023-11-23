@@ -3,8 +3,6 @@ import React, { useState } from "react"
 import Card from 'react-bootstrap/Card'
 
 import axios from "axios";
-// import ContainerFluid from './container';
-// import TextControlsExample from './writeNote';
 
 function App() {
   const [data, setData] = useState({});
