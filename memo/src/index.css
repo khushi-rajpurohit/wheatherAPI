@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+/* p {
+  font-family: fantasy;
+  font-size: 3rem;
+}
+
+
+h1 {
+  font-family: fantasy;
+  font-size: 5.8rem;
+} */
+/* .App {
+  width:100%;
+  height: 100vh;
+  background-color: darkcyan;
+  color: black;
+} */
+
+
+.App:before{
+  content:'' ;
+  background: url('https://cdn.wallpapersafari.com/27/47/fAuCij.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.App .search{
+  text-align: center;
+  padding: 1rem;
+  
+}
+.App input{
+  padding: 10px;
+  background: url('./pics/Screenshot\ 2023-11-22\ at\ 12.07.12\ AM.png') ;
+  border-radius: 25px;
+  border: 1px solid  ;
+  
+}
+
+.App input::placeholder {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.container {
+  border: 2px solid;
+  height: 30rem;
+  width: 25rem;
+  background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701336972.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: large;
+}
