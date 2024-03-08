@@ -1,6 +1,7 @@
 
 import React, { useState } from "react"
 import Card from 'react-bootstrap/Card'
+import './App.css'
 
 import axios from "axios";
 
@@ -26,7 +27,7 @@ function App() {
 
       <Card >
       <div className="search">
-        <input
+        <input className="input"
           value={location}
           onChange={(event) => setLocation(event.target.value)}
           onKeyPress={searchLocation}
@@ -35,14 +36,14 @@ function App() {
         />
       </div>
       <Card.Body>
-        <Card.Title style={{fontFamily:"fantasy",fontSize:"3rem"}}> Today's Wheather</Card.Title><br/>
-        <Card.Subtitle className="mb-2 text-muted" style={{fontSize:"2rem"}}>city: {data.name}</Card.Subtitle>
-        <Card.Text style={{fontSize:"2rem"}}>
+        <Card.Title className="cardH"> Today's Wheather</Card.Title><br/>
+        <Card.Subtitle className="cardResult">city: {data.name}</Card.Subtitle>
+        <Card.Text className="cardResult">
         Temprature: {data.main?.temp}<br/>
         
         </Card.Text>
-        <Card.Text style={{fontFamily:"fantasy",fontSize:"2rem"}}>
-        {data.weather?.[0]?.description}
+        <Card.Text className="result">
+      "  {data.weather?.[0]?.description} "
         </Card.Text>
     
       </Card.Body>

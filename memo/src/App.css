@@ -6,6 +6,29 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container{
+  justify-content: center;
+  padding-top: 2rem;
+  height: 25rem;
+}
+.cardH{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cardResult{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+}
+.input{
+  text-align: center;
+  
+}
+.result{
+  font-size: 2rem;
+  font-family:'Courier New', Courier, monospace;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
