@@ -36,7 +36,7 @@ function App() {
         />
       </div>
       <Card.Body>
-        <Card.Title className="cardH"> Today's Wheather</Card.Title><br/>
+        <Card.Title className="cardH"> Today's Weather</Card.Title><br/>
         <Card.Subtitle className="cardResult">city: {data.name}</Card.Subtitle>
         <Card.Text className="cardResult">
         Temprature: {data.main?.temp}<br/>
