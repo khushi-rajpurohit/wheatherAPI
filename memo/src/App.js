@@ -35,7 +35,7 @@ function App() {
         />
       </div>
       <Card.Body>
-        <Card.Title style={{fontFamily:"fantasy",fontSize:"3rem"}}> Today's Wheather</Card.Title><br/>
+        <Card.Title style={{fontFamily:"fantasy",fontSize:"3rem"}}> Today's Weather</Card.Title><br/>
         <Card.Subtitle className="mb-2 text-muted" style={{fontSize:"2rem"}}>city: {data.name}</Card.Subtitle>
         <Card.Text style={{fontSize:"2rem"}}>
         Temprature: {data.main?.temp}<br/>
